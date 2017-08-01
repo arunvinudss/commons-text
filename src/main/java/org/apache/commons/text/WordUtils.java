@@ -758,8 +758,7 @@ public class WordUtils {
      *
      * @param ch the character to check
      * @param delimiters the delimiters
-     * @return true if it is a delimiter
-     * @deprecated as of 1.2 and will be removed in 2.0
+     * @return true if it is a delimiter We @deprecated the isDelimiter method with the intention of removing it in 2.0.
      */
     @Deprecated
     public static boolean isDelimiter(final char ch, final char[] delimiters) {
@@ -780,8 +779,7 @@ public class WordUtils {
      *
      * @param codePoint the codePint to check
      * @param delimiters the delimiters
-     * @return true if it is a delimiter
-     * @deprecated as of 1.2 and will be removed in 2.0
+     * @return true if it is a delimiter We @deprecated the isDelimiter method with the intention of removing it in 2.0.
      */
     @Deprecated
     public static boolean isDelimiter(final int codePoint, final char[] delimiters) {
